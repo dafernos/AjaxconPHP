@@ -1,0 +1,25 @@
+body{
+	text-align: center;
+	background: lightgrey;
+}
+.container{
+	padding: 30px;
+	min-height: 15vw;
+	width: 30vw;
+	margin: 20vh auto;
+	background: white;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin:2vw 0;
+}
+li:nth-child(even){
+	background:#fff;
+}
+li:nth-child(odd){
+	background:#aaa;
+}
+li{
+	padding: 7px;
+}
